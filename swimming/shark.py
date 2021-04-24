@@ -2,10 +2,11 @@ from datetime import date
 
 class Shark:
 
-    def __init__(self,name,species, food):
+    def __init__(self, name, species, shift, food):
         self.id = ""
         self.name = name
         self.species=species
+        self.shift = shift
         self.food = food
         self.status = date.today()
         self.slithering = True
